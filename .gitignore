@@ -1,0 +1,24 @@
+# Python 虚拟环境
+venv/
+.venv/
+
+# PyInstaller 文件
+__pycache__/
+*.pyc
+*.pyo
+*.spec
+build/
+dist/
+
+# IDE 文件
+.idea/
+.vscode/
+
+# 模型和数据文件 (可选，如果模型太大，建议在 Release 中提供)
+# 推荐上传小模型，大模型才忽略
+# *.tflite
+# *.txt
+
+# 操作系统临时文件
+.DS_Store
+Thumbs.db
