@@ -1,0 +1,3 @@
+labels.txt和model.tflite是通过Google的teachable machine训练出来的epochs为50 ，learning rate 为0.001，Batch size为16的TensorFlow Lite 格式的量化模型
+而这个pneumonia_detector_app.py是基于python编写的一个可以运行的程序，支持单次导入图片检测肺炎以及批量导入图片高速检测功能
+另外，为满足无python配置环境的人群需求，写者将这个模型和程序打包成一个应用程序PneumoniaDetector，下载整个PneumoniaDetector文件夹后打开此文件夹，单击exe后缀的文件即可运行
